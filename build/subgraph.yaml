@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Thing
@@ -18,10 +18,10 @@ dataSources:
         - TokenBought
       abis:
         - name: Thing
-          file: ./abis/Thing.json
+          file: Thing/abis/Thing.json
       eventHandlers:
         - event: Minted(uint256,string)
           handler: handleMinted
         - event: Bought(uint256,string,uint256)
           handler: handleBought
-      file: ./src/mapping.ts
+      file: Thing/Thing.wasm
