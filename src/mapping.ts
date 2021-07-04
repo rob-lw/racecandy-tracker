@@ -48,6 +48,7 @@ export function handleErrorOut(event: ErrorOut): void {
 export function handleMinted(event: Minted): void {
   let token = new TokenMinted(event.params.id.toString())
   token.metaId = "this is a test"
+  token.save()
   log.error("handleMinted", [event.params.id.toHexString()])
 }
 
