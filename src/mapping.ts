@@ -3,6 +3,7 @@ import {
   ErrorOut,
   Minted,
   Bought,
+  Thing,
 } from "../generated/Thing/Thing"
 import { TokenMinted, TokenBought } from "../generated/schema"
 
@@ -46,12 +47,23 @@ export function handleErrorOut(event: ErrorOut): void {
 }
 
 export function handleMinted(event: Minted): void {
-  let token = new TokenMinted(event.params.id.toString())
-  token.metaId = "this is a test"
+  //log.error("handleMinted-ID {}", [event.params.id.toHex()])
+  //log.error("handleMinted-MetaData {}", [event.params.metaId])
+
+  let token = new TokenMinted(event.params.id.toHex())
+  token.id = event.params.id.toString()
+  token.metaId = event.params.metaId
   token.save()
-  log.error("handleMinted", [event.params.id.toHexString()])
 }
 
 export function handleBought(event: Bought): void {
-  log.error("handleBought {}", [event.params.tokenId.toHexString()])
+  //log.error("handleBought-ID {}", [event.params.tokenId.toHex()])
+  //log.error("handleBought-MetaData {}", [event.params.metaId])
+  //log.error("handleBought-Value {}", [event.params.value.toHex()])
+
+  let sale = new TokenBought(event.params.tokenId.toHex())
+  sale.id = event.params.tokenId.toString()
+  sale.tokenId = event.params.tokenId
+  sale.value = event.params.value
+  sale.save()
 }

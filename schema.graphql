@@ -1,12 +1,14 @@
 type TokenMinted @entity {
+  "unique identifier of minted token"
   id: ID!
-  count: BigInt
+  "unique identifier for tokens. multiple tokens can correlate to single asset"
   metaId: String!
 }
 
 type TokenBought @entity {
   id: ID!
-  count: BigInt
+  "unique identifier of sold token and relates to minted token"
   tokenId: BigInt! # uint256
+  "value. raw value out by factor 1e18"
   value: BigInt!
 }
