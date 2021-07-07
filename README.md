@@ -5,7 +5,7 @@ The front-end web interface located at https://github.com/rob-lw/rarecandy-track
 
 [Rarecandy](https://rarecandy.xyz/) is a virtual publishing house for scarce digital and physcial collectibles on Ethereum blockchain.
 
-The back-end generates the following data subgraph:
+The back-end generates the following data subgraph [Image](https://github.com/rob-lw/rarecandy-tracker/blob/master/Rarecandy%20deployed%20subgraph.png):
 1. Total Assets Minted to date
 2. Total Assets Sold to date
 3. Sales volume to date 
