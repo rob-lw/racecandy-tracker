@@ -20,7 +20,7 @@ In the project directory, you can run:
 
 ### `graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ rob-lw/racecandy-tracker`
 
-Deploys the subgraph to The Graph Hosted Service.\
+This deploys the subgraph to The Graph Hosted Service.
 
 ## Screenshots
 ![Screenshot from 2021-07-07 21-45-21](https://user-images.githubusercontent.com/80292168/124826383-b0c38e00-df6c-11eb-9119-b35184f43017.png) 
