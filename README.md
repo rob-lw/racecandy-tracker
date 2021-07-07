@@ -23,9 +23,10 @@ In the project directory, you can run:
 Deploys the subgraph to The Graph Hosted Service.\
 
 ## Screenshots
-![Screenshot from 2021-07-07 21-45-21](https://user-images.githubusercontent.com/80292168/124826383-b0c38e00-df6c-11eb-9119-b35184f43017.png)
+![Screenshot from 2021-07-07 21-45-21](https://user-images.githubusercontent.com/80292168/124826383-b0c38e00-df6c-11eb-9119-b35184f43017.png) 
 
-## [Front-end](https://github.com/rob-lw/rarecandy-tracker-frontend) Screenshots
+## [Front-end](https://github.com/rob-lw/rarecandy-tracker-frontend) Screenshots 
+Front-end source code: https://github.com/rob-lw/rarecandy-tracker-frontend
 
 Sales Volume & Highest Bid to date
 ![Sales volume   bid](https://user-images.githubusercontent.com/80292168/124825521-ab197880-df6b-11eb-8c2d-5f9f996b931a.png)
