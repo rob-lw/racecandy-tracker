@@ -21,3 +21,6 @@ In the project directory, you can run:
 ### `graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ rob-lw/racecandy-tracker`
 
 Deploys the subgraph to The Graph Hosted Service.\
+
+## Screenshots!
+[Rarecandy deployed subgraph](https://user-images.githubusercontent.com/80292168/124826180-75c15a80-df6c-11eb-9983-3fa442ffde81.png)
