@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 This project is the back-end for the Rarecandy subgraph https://github.com/rob-lw/rarecandy-tracker deployed at the hosted service [The Graph - Rarecandy Subgraph](https://thegraph.com/explorer/subgraph/rob-lw/racecandy-tracker)
 
-The front-end web interface located at https://github.com/rob-lw/rarecandy-tracker-frontend
+The front-end web interface is located at https://github.com/rob-lw/rarecandy-tracker-frontend
 
 [Rarecandy](https://rarecandy.xyz/) is a virtual publishing house for scarce digital and physcial collectibles on Ethereum blockchain.
 
